@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPv6 Network Configuration Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include D3.js and Chart.js Libraries -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>IPv6 Network Configuration and Simulation</h1>
+
+    <div class="container">
+        <!-- IPv6 Address Allocation Section -->
+        <section id="address-allocation">
+            <h2>IPv6 Address Allocation Simulator</h2>
+            <input type="text" id="ipv6-input" placeholder="Enter IPv6 Address">
+            <button onclick="validateIPv6()">Validate Address</button>
+            <p id="validation-result"></p>
+            <div id="ipv6-diagram"></div>
+        </section>
+
+        <!-- Packet Transmission Simulation -->
+        <section id="packet-transmission">
+            <h2>IPv6 Packet Transmission</h2>
+            <button onclick="simulateTransmission()">Simulate Transmission</button>
+            <div id="network-animation"></div>
+        </section>
+
+        <!-- IPv6 Security Demonstration -->
+        <section id="ipv6-security">
+            <h2>IPv6 Security Demo</h2>
+            <button onclick="showSecurityDemo()">Show Security Demo</button>
+            <p id="security-demo"></p>
+        </section>
+
+        <!-- Congestion Control Visualization -->
+        <section id="congestion-control">
+            <h2>Congestion Control Visualization</h2>
+            <canvas id="congestionChart" width="400" height="200"></canvas>
+            <button onclick="updateCongestionChart()">Update Chart</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
