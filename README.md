@@ -1,7 +1,8 @@
 # IPv6-Network-Configuration-
 Project Overview: IPv6 Network Configuration and Simulation Dashboard
 
-website link: https://lnkd.in/gCYJr5Wt
+website link: 
+https://silly-churros-56f48e.netlify.app/
 
 This project is an interactive web-based dashboard designed to help users understand and simulate key concepts related to Next Generation IP Networks (IPv6). Developed using HTML, CSS, and JavaScript, this project demonstrates IPv6 addressing, packet transmission, security mechanisms, and congestion control visualization. The project leverages libraries like D3.js for diagram visualization and Chart.js for dynamic charting, making complex network concepts more intuitive and visually engaging.
 
