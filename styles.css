@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+}
+
+.container {
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+section {
+    background: white;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#network-animation {
+    height: 100px;
+    margin-top: 1rem;
+    background: #ddd;
+    position: relative;
+}
+
+#ipv6-diagram {
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
